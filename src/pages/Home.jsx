@@ -12,7 +12,7 @@ const Home = () => {
         subTitle="Find the React job that fits your skills and needs"
       />
       <HomeCards />
-      <JobListin />
+      <JobListin isHome={true} />
       <ViewAllJobs />
     </>
   );
